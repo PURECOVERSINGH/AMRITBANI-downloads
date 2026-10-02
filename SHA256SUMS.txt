@@ -1,1 +1,1 @@
-78304739105a1a789ec3e1f8cb62e12b6368ac1c9cfe6899cfb4b84e73fd163c  AMRITBANI-iPhone-iPad-1.0.1-signing-required.ipa
+425e5132b41f8d3e58edb1c77484d3ba71eb16d9b07fde9d675a51fb47a9237b  AMRITBANI-iPhone-iPad-1.0.2-signing-required.ipa
