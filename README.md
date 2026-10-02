@@ -4,17 +4,17 @@ Live Gurbani, Kirtan and Akhand Paath. Official testing downloads for Android TV
 
 [Open the live player](https://amritbani.vercel.app/) · [All releases](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases)
 
-## Download 1.0.0 beta 1
+## Current downloads
 
 | Device | Download | Installation status |
 |---|---|---|
 | Android TV / Google TV | [AMRITBANI-Android-TV.apk](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.1/AMRITBANI-Android-TV.apk) | Release-signed APK. Android 6+ with Android TV and WebView. |
 | Android phone / tablet | [AMRITBANI-Android-Phone.apk](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.1/AMRITBANI-Android-Phone.apk) | Release-signed APK. Android 6+ and current Android System WebView. |
-| iPhone / iPad | [AMRITBANI-iPhone-iPad-signing-required.ipa](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.1/AMRITBANI-iPhone-iPad-signing-required.ipa) | Unsigned arm64 test build for iOS/iPadOS 15+. Must be signed with your own Apple ID/development profile through a compatible sideloading tool. **Not a tap-to-install or App Store download.** |
+| iPhone / iPad | [AMRITBANI-iPhone-iPad-1.0.1-signing-required.ipa](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.2/AMRITBANI-iPhone-iPad-1.0.1-signing-required.ipa) | Corrected unsigned arm64 test build for iOS/iPadOS 15+. It includes the Home Screen icon and widget. Sign it with your own Apple ID/development profile through a compatible sideloading tool. |
 
-[SHA-256 checksums](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.1/SHA256SUMS.txt)
+[iOS SHA-256 checksum](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/download/v1.0.0-beta.2/SHA256SUMS.txt)
 
-These are early testing builds. Compilation and automated checks do not constitute physical-device validation. Internet access is required. Playback pauses when the app goes into the background; this release does not provide a native background-audio service.
+These are early testing builds. Compilation and automated checks do not constitute physical-device validation. Internet access is required. The iOS build requests background audio playback, which still needs testing on a physical iPhone.
 
 ## Android installation
 
@@ -29,7 +29,7 @@ The original TV debug APK used a different signing key. **Uninstall that origina
 
 ## iPhone and iPad testing
 
-The IPA is intentionally labeled **signing-required**. Downloading it in Safari alone cannot install it. Use a compatible sideloading tool on your own computer to sign and provision it with your Apple ID, or build/sign the Xcode project using a Personal Team. Free provisioning is temporary and may require periodic renewal and Developer Mode. Never send your Apple ID password to this project or enter it on this download page.
+The IPA is intentionally labeled **signing-required**. Downloading it in Safari alone cannot install it. Use Impactor or another compatible sideloading tool on your own computer to sign and provision it with your Apple ID, or build/sign the Xcode project using a Personal Team. After Impactor reports success, search **AMRITBANI** in the iPhone App Library, and check Settings → General → VPN & Device Management to trust the profile if prompted. Free provisioning is temporary and may require periodic renewal and Developer Mode. Never send your Apple ID password to this project or enter it on this download page.
 
 For immediate use without signing: open [AMRITBANI](https://amritbani.vercel.app/) in Safari, then Share → Add to Home Screen. This is the web app, not the native IPA.
 
