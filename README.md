@@ -1,8 +1,8 @@
 # AMRITBANI downloads
 
-[Choose your device](https://purecoversingh.github.io/AMRITBANI-downloads/) · [Web player](https://amritbani.vercel.app/) · [Latest release](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/tag/v2.1.0)
+[Choose your device](https://purecoversingh.github.io/AMRITBANI-downloads/) · [Web player](https://amritbani.vercel.app/) · [Latest release](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/tag/v2.2.0)
 
-AMRITBANI 2.1.0
+AMRITBANI 2.2.0
 
 - Centered transparent chrome artwork, Monstera backdrop and clear glass player.
 - Smaller glass-style coffee button, with the existing on-page support popup.
@@ -14,7 +14,10 @@ AMRITBANI 2.1.0
 - Updated Android TV launcher banner and chrome emblem.
 - Optional notification alerts when the official Sri Harmandir Sahib broadcast starts; permission is requested only after the user enables it.
 - Player and Timer/Weather navigation buttons now sit at the bottom of their screens.
+- Phone WebViews no longer resize with pinch gestures.
+- Coffee and Timer/Weather controls share one bottom row, and red button glows were replaced with neutral clear glass.
+- Android and iOS widgets use a more transparent player layout with elapsed-live progress plus previous, play/pause, and next controls.
 
-Validation: 20 web tests passed; iPhone/iPad 2.1.0 Release build passed; Android phone/TV 2.1.0 signed Release builds and lint passed. Physical-device notifications, widgets, audio interruptions and background playback still need testing.
+Validation: 20 web tests passed; iPhone/iPad 2.2.0 Release build passed; Android phone/TV 2.2.0 signed Release builds and lint passed. Physical-device notifications, widgets, audio interruptions and background playback still need testing.
 
 The IPA is unsigned and must be signed with your Apple ID using a compatible sideloading tool. Retain the widget extension when signing, then remove/re-add the widget after updating. Widgets require iOS 17+; the main app supports iOS 15+. Android requires Android 6+ and a current System WebView.
