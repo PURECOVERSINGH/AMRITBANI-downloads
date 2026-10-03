@@ -1,10 +1,10 @@
 # AMRITBANI downloads
 
-[Choose your device](https://purecoversingh.github.io/AMRITBANI-downloads/) · [Web player](https://amritbani.vercel.app/) · [Latest Android release](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/tag/v2.2.3)
+[Choose your device](https://purecoversingh.github.io/AMRITBANI-downloads/) · [Web player](https://amritbani.vercel.app/) · [Latest Android release](https://github.com/PURECOVERSINGH/AMRITBANI-downloads/releases/tag/v2.2.4)
 
-AMRITBANI Android 2.2.3 · iOS 2.2.0
+AMRITBANI Android 2.2.4 · iOS 2.2.0
 
-- Centered transparent chrome artwork, Monstera backdrop and clear glass player.
+- Centered transparent chrome artwork, crisp unblurred Monstera backdrop with a 10% black tint, and darker readable glass player.
 - Smaller glass-style coffee button, with the existing on-page support popup.
 - Manual red-glass buttons switch between the Player and Timer/Weather dashboard; screens never change automatically.
 - Manual 25/5/15-minute Pomodoro, clock, date, and optional local weather.
@@ -19,6 +19,6 @@ AMRITBANI Android 2.2.3 · iOS 2.2.0
 - Android and iOS widgets use a more transparent player layout with elapsed-live progress plus previous, play/pause, and next controls.
 - Android TV player is 30% smaller; low-latency Media3 buffering and automatic recovery improve Harmandir Sahib connection reliability.
 
-Validation: 20 web tests passed; iPhone/iPad 2.2.0 Release build passed; Android phone/TV 2.2.3 signed Release builds, lint and signatures passed. Physical-device notifications, widgets, audio interruptions and background playback still need testing.
+Validation: 20 web tests passed; iPhone/iPad 2.2.0 Release build passed; Android phone/TV 2.2.4 signed Release builds, lint and signatures passed. Physical-device notifications, widgets, audio interruptions and background playback still need testing.
 
 The IPA is unsigned and must be signed with your Apple ID using a compatible sideloading tool. Retain the widget extension when signing, then remove/re-add the widget after updating. Widgets require iOS 17+; the main app supports iOS 15+. Android requires Android 6+ and a current System WebView.
